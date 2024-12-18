@@ -110,7 +110,7 @@ $position -1 0.58
 
 CHAPTER1_TITLE
 {
-#HL2_Chapter1_Title
+#who_Chapter1_Title
 }
 
 CHAPTER2_TITLE
