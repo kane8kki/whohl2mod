@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/kasset/cassette_player_tape"
+	"$surfaceprop" "Computer"
+}
