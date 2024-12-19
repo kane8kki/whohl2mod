@@ -692,8 +692,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [$OSX]
+				"name"		"Heavitas"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
@@ -795,6 +794,8 @@ Scheme
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2crosshairs.ttf"
 		"3"		"resource/alcotton.ttf"
+		"4"		"resource/Heavitas.ttf"
+		"5"		"resource/StrangeAndWeird.ttf"
 	}
 
 }
