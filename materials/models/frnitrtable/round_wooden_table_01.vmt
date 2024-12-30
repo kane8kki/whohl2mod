@@ -1,4 +1,5 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "models/frnitrtable/round_wooden_table_01"
+	"$envmap" "env_cubemap"
 }

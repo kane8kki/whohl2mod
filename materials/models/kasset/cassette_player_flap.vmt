@@ -3,4 +3,6 @@
 	"$basetexture" "models/kasset/cassette_player_flap"
 	"$surfaceprop" "Computer"
 	"$translucent" 1
+	"$bumpmap" "models/kasset/cassette_player_flap_nrm"
+	"$envmap" "env_cubemap"
 }
