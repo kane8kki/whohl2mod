@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "5"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "6"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.4.6.1 from bckground"
 	"detailmaterial" "detail/detailsprites"
@@ -4197,7 +4197,6 @@ entity
 	"id" "225"
 	"classname" "env_cubemap"
 	"cubemapsize" "9"
-	"sides" "60 9 43 46 67 53 28 21 34 15 48 39 57 70 63 218"
 	"origin" "267 -169 128"
 	editor
 	{
@@ -4239,8 +4238,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[192.311 -188.587 157.915]"
-		"look" "[412.596 -63.4467 75.5964]"
+		"position" "[166.268 -253.491 133.496]"
+		"look" "[418.14 -167.743 120.483]"
 	}
 }
 cordons

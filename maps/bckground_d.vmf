@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "3"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "7"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.4.6.1 from bckground"
 	"detailmaterial" "detail/detailsprites"
@@ -201,7 +201,7 @@ world
 				"v" "320 71.1111 64"
 				"v" "320 -391.112 64"
 			}
-			"material" "WOOD/WOODFLOOR007A"
+			"material" "TILE/TILEFLOOR013A_C17"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3724,8 +3724,8 @@ world
 				"v" "314.596 -208.17 166.466"
 			}
 			"material" "DOR2/DOR2"
-			"uaxis" "[-0.7071 -0.7071 -0 142.666] 0.1888"
-			"vaxis" "[-0 0 -1 329.022] 0.1979"
+			"uaxis" "[-0.7071 -0.7071 -0 142.669] 0.188763"
+			"vaxis" "[-0 0 -1 329.021] 0.197933"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3867,37 +3867,11 @@ entity
 }
 entity
 {
-	"id" "2031"
-	"classname" "point_viewcontrol"
-	"acceleration" "500"
-	"angles" "0 334.5 0"
-	"deceleration" "500"
-	"fov" "90"
-	"fov_rate" "1"
-	"interpolatepositiontoplayer" "0"
-	"spawnflags" "28"
-	"speed" "0"
-	"target" "perridorr"
-	"targetname" "lucas"
-	"trackspeed" "40"
-	"wait" "10"
-	"origin" "178.043 -149.521 140.592"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
 	"id" "2067"
 	"classname" "logic_auto"
 	"spawnflags" "1"
 	connections
 	{
-		"OnMapSpawn" "lucas,Enable,,0,-1"
 		"OnMapSpawn" "farid,Fade,,0,-1"
 		"OnMapSpawn" "radiosound,PlaySound,,0.5,-1"
 	}
@@ -3908,21 +3882,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2500]"
-	}
-}
-entity
-{
-	"id" "2076"
-	"classname" "info_target"
-	"angles" "0 0 0"
-	"targetname" "perridorr"
-	"origin" "280 -180 136"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
 	}
 }
 entity
@@ -4238,8 +4197,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[126.743 -198.2 167.963]"
-		"look" "[381.29 -153.317 103.518]"
+		"position" "[58.6647 -213.988 97.0812]"
+		"look" "[239.215 -116.361 -72.7202]"
 	}
 }
 cordons
