@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/firestrike/firestrike_albd"
+	"$bumpmap"	"models/firestrike/firestrike_nrm"
+	"$surfaceprop" "Computer"
+	"$translucent" 1
+}
