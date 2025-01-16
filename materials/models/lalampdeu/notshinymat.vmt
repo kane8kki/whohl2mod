@@ -1,6 +1,6 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "models/lalampdeu/notshinymat"
-	"$surfaceprop" "Wood_Furniture"
+	"$surfaceprop" "Wood"
 	"$bumpmap" "models/lalampdeu/notshinymat_nrm"
 }
