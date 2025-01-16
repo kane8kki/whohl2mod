@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "6"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "9"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.4.6.1 from bckground"
 	"detailmaterial" "detail/detailsprites"
@@ -201,11 +201,11 @@ world
 				"v" "320 71.1111 64"
 				"v" "320 -391.112 64"
 			}
-			"material" "WOOD/WOODFLOOR007A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"material" "WOODPLANKS/WOODPLANKS"
+			"uaxis" "[1 0 0 0] 0.015"
+			"vaxis" "[0 -1 0 0] 0.015"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		editor
@@ -305,7 +305,7 @@ world
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -523,7 +523,7 @@ world
 			"uaxis" "[1 0 0 154] 0.025"
 			"vaxis" "[0 0 1 -171] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -623,7 +623,7 @@ world
 			"uaxis" "[1 0 0 154] 0.025"
 			"vaxis" "[0 0 1 -171] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -705,7 +705,7 @@ world
 			"uaxis" "[-1 0 0 154] 0.025"
 			"vaxis" "[0 0 1 -171] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -777,7 +777,7 @@ world
 			"uaxis" "[0 -1 0 154] 0.025"
 			"vaxis" "[0 0 1 -171] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -823,7 +823,7 @@ world
 			"uaxis" "[0 -1 0 154] 0.025"
 			"vaxis" "[0 0 1 -171] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -859,7 +859,7 @@ world
 			"uaxis" "[-1 0 0 154] 0.025"
 			"vaxis" "[0 0 1 -171] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -941,7 +941,7 @@ world
 			"uaxis" "[0 -1 0 154] 0.025"
 			"vaxis" "[0 0 1 -171] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -1013,7 +1013,7 @@ world
 			"uaxis" "[-1 0 0 154] 0.025"
 			"vaxis" "[0 1 0 -171] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -1059,7 +1059,7 @@ world
 			"uaxis" "[0 -1 0 154] 0.025"
 			"vaxis" "[0 0 1 -171] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -1113,7 +1113,7 @@ world
 			"uaxis" "[-1 0 0 154] 0.025"
 			"vaxis" "[0 0 1 -171] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -1177,7 +1177,7 @@ world
 			"uaxis" "[0 -1 0 154] 0.025"
 			"vaxis" "[0 0 1 -171] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -1231,7 +1231,7 @@ world
 			"uaxis" "[-1 0 0 154] 0.025"
 			"vaxis" "[0 0 1 -171] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -2643,11 +2643,11 @@ world
 				"v" "320 -92 64"
 				"v" "484 -92 64"
 			}
-			"material" "WOOD/WOODFLOOR007A"
-			"uaxis" "[1 0 0 -256] 0.25"
-			"vaxis" "[0 -1 0 28] 0.25"
+			"material" "WOODPLANKS/WOODPLANKS"
+			"uaxis" "[1 0 0 -256] 0.015"
+			"vaxis" "[0 -1 0 28] 0.015"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -2665,7 +2665,7 @@ world
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -2711,7 +2711,7 @@ world
 			"uaxis" "[0 1 0 4] 0.025"
 			"vaxis" "[0 0 -1 16] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -2747,7 +2747,7 @@ world
 			"uaxis" "[1 0 0 -3] 0.025"
 			"vaxis" "[0 0 -1 16] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -2829,7 +2829,7 @@ world
 			"uaxis" "[0 1 0 4] 0.025"
 			"vaxis" "[0 0 -1 0] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -2865,7 +2865,7 @@ world
 			"uaxis" "[1 0 0 -2] 0.025"
 			"vaxis" "[0 0 -1 0] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -2947,7 +2947,7 @@ world
 			"uaxis" "[0 1 0 14] 0.025"
 			"vaxis" "[0 0 -1 16] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -3065,7 +3065,7 @@ world
 			"uaxis" "[0 1 0 14] 0.025"
 			"vaxis" "[0 0 -1 0] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -3273,7 +3273,7 @@ world
 			"uaxis" "[1 0 0 268] 0.025"
 			"vaxis" "[0 0 -1 0] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		editor
@@ -3355,7 +3355,7 @@ world
 			"uaxis" "[1 0 0 268] 0.025"
 			"vaxis" "[0 0 -1 16] 0.025"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -3724,10 +3724,10 @@ world
 				"v" "314.596 -208.17 166.466"
 			}
 			"material" "DOR2/DOR2"
-			"uaxis" "[-0.7071 -0.7071 -0 142.666] 0.1888"
-			"vaxis" "[-0 0 -1 329.022] 0.1979"
+			"uaxis" "[-0.7071 -0.7071 0 142.666] 0.1888"
+			"vaxis" "[0 0 -1 329.022] 0.1979"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "2"
 			"smoothing_groups" "0"
 		}
 		side
@@ -3786,7 +3786,7 @@ entity
 	"_zero_percent_distance" "0"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "308 -180 184"
+	"origin" "308.837 -180 184"
 	editor
 	{
 		"color" "220 30 220"
@@ -3842,7 +3842,7 @@ entity
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
-	"model" "models/taabl/lattable.mdl"
+	"model" "models/goodmattable/tableavecdulet.mdl"
 	"modelscale" "1.0"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
@@ -3943,7 +3943,7 @@ entity
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
-	"model" "models/lalampedeu/lejenideulalampe.mdl"
+	"model" "models/goodmatlamp/lamp.mdl"
 	"modelscale" "1.0"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
@@ -4098,7 +4098,7 @@ entity
 	"ignorenormals" "0"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
-	"model" "models/bluechaire/bluewoodnchair.mdl"
+	"model" "models/nick_gurr/cherre.mdl"
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
@@ -4238,8 +4238,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[166.268 -253.491 133.496]"
-		"look" "[418.14 -167.743 120.483]"
+		"position" "[298.646 -199.399 185.277]"
+		"look" "[461.211 8.66974 150.046]"
 	}
 }
 cordons

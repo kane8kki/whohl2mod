@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "woodplanks/woodplanks_diff"
+	"$bumpmap" "woodplanks/woodplanks_nrm"
+	"$normalmap" "woodplanks/woodplanks_nrm"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
+}
