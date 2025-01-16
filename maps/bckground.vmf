@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "9"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.4.6.1 from bckground"
 	"detailmaterial" "detail/detailsprites"
@@ -3651,9 +3651,9 @@ world
 				"v" "314.596 -208.17 65.1236"
 				"v" "315.83 -209.404 65.1236"
 			}
-			"material" "WOOD/WOODDOOR045A"
-			"uaxis" "[0.7071 -0.7071 0 -145] 0.0068"
-			"vaxis" "[-0.7071 -0.7071 0 285] 0.0944"
+			"material" "DOR2/DOR2"
+			"uaxis" "[0.7071 -0.7071 0 -663.641] 0.00170559"
+			"vaxis" "[-0.7071 -0.7071 0 570.677] 0.0471906"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3669,9 +3669,9 @@ world
 				"v" "348.764 -174 166.466"
 				"v" "350 -175.237 166.466"
 			}
-			"material" "WOOD/WOODDOOR045A"
-			"uaxis" "[0.7071 -0.7071 0 -145] 0.0068"
-			"vaxis" "[-0.7071 -0.7071 0 285] 0.0944"
+			"material" "DOR2/DOR2"
+			"uaxis" "[0.7071 -0.7071 0 -398.062] 0.00170767"
+			"vaxis" "[-0.7071 -0.7071 0 570.799] 0.0471879"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3687,9 +3687,9 @@ world
 				"v" "314.596 -208.17 166.466"
 				"v" "315.83 -209.404 166.466"
 			}
-			"material" "WOOD/WOODDOOR045A"
-			"uaxis" "[0.7071 -0.7071 0 -145] 0.0068"
-			"vaxis" "[0 0 -1 273] 0.212"
+			"material" "DOR2/DOR2"
+			"uaxis" "[0.7071 -0.7071 0 -837.984] 0.00170422"
+			"vaxis" "[0 0 -1 658.042] 0.0989666"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3705,9 +3705,9 @@ world
 				"v" "350 -175.236 166.466"
 				"v" "348.764 -174 166.466"
 			}
-			"material" "WOOD/WOODDOOR045A"
-			"uaxis" "[0.7071 -0.7071 0 -145] 0.0068"
-			"vaxis" "[0 0 -1 273] 0.212"
+			"material" "DOR2/DOR2"
+			"uaxis" "[0.7071 -0.7071 0 -488.766] 0.00170696"
+			"vaxis" "[0 0 -1 658.042] 0.0989666"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3724,8 +3724,8 @@ world
 				"v" "314.596 -208.17 166.466"
 			}
 			"material" "DOR2/DOR2"
-			"uaxis" "[-0.7071 -0.7071 0 142.666] 0.1888"
-			"vaxis" "[0 0 -1 329.022] 0.1979"
+			"uaxis" "[-0.7071 -0.7071 0 570.677] 0.0471906"
+			"vaxis" "[0 0 -1 658.042] 0.0989666"
 			"rotation" "0"
 			"lightmapscale" "2"
 			"smoothing_groups" "0"
@@ -3742,8 +3742,8 @@ world
 				"v" "350 -175.236 166.466"
 			}
 			"material" "DOR2/DOR2"
-			"uaxis" "[0.7071 0.7071 0 -143] 0.1888"
-			"vaxis" "[0 0 -1 273] 0.212"
+			"uaxis" "[0.7071 0.7071 0 -570.677] 0.0471906"
+			"vaxis" "[0 0 -1 658.042] 0.0989666"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4238,8 +4238,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[298.646 -199.399 185.277]"
-		"look" "[461.211 8.66974 150.046]"
+		"position" "[124.49 -124.447 171.008]"
+		"look" "[300.693 -317.414 119.267]"
 	}
 }
 cordons
