@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "65"
+	"mapversion" "66"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -95,7 +95,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "65"
+	"mapversion" "66"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -10506,8 +10506,8 @@ world
 				"v" "48 -304 187"
 			}
 			"material" "PLASTA/PLASTER_MATERIAL_HOSTEL"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[0 1 0 0] 0.015"
+			"vaxis" "[0 0 -1 0] 0.015"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -10878,8 +10878,8 @@ world
 				"v" "48 -256 187"
 			}
 			"material" "PLASTA/PLASTER_MATERIAL_HOSTEL"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.015"
+			"vaxis" "[0 0 -1 0] 0.015"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -10978,8 +10978,8 @@ world
 				"v" "0 -256 187"
 			}
 			"material" "PLASTA/PLASTER_MATERIAL_HOSTEL"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[0 1 0 0] 0.015"
+			"vaxis" "[0 0 -1 0] 0.015"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -11314,8 +11314,8 @@ world
 				"v" "0 -304 187"
 			}
 			"material" "PLASTA/PLASTER_MATERIAL_HOSTEL"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.015"
+			"vaxis" "[0 0 -1 0] 0.015"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -12444,6 +12444,35 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5690"
+	"classname" "info_overlay"
+	"angles" "0 0 90"
+	"BasisNormal" "-1 -3.299e-15 7.54723e-08"
+	"BasisOrigin" "68.9935 -251.391 137"
+	"BasisU" "-7.54723e-08 4.37114e-08 -1"
+	"BasisV" "0 1 4.37114e-08"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "decal_light/light_decal"
+	"sides" "897"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "49.458 -43.75 0"
+	"uv1" "49.458 43.25 0"
+	"uv2" "-47.6406 47.25 0"
+	"uv3" "-51.2753 -46.75 0"
+	"origin" "68.9935 -251.391 137"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 5500]"
 	}
 }
 cameras
