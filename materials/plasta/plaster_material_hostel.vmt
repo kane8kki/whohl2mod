@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plasta/plaster_colortexture"
+	"$bumpmap" "plasta/plaster_normaltexture"
+	"$normalmap" "plasta/plaster_normaltexture"
+	"$surfaceprop" "Concrete"
+}
