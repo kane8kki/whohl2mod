@@ -59,6 +59,17 @@
 //	SNDLVL_150dB	= 150,	// 0.2
 
 // General soundscapes
+"JazzyHostel"
+{
+    "dsp" "18"  // Simule une pièce moyenne en béton (réduit un peu les aigus)
+    "playlooping"
+    {
+        "volume" "0.4"
+        "wave" "jazzyhostel.wav"
+        "pitch" "90"  // Rend le son légèrement plus grave (aigus atténués)
+        "position" "1" // Le son semble venir d’une autre pièce
+    }
+}
 
 // This soundscape enables automatic dsp
 
