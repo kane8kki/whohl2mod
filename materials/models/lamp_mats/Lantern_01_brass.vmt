@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/lamp_mats/Lantern_01_brass_diff"
+	"$bumpmap" "models/lamp_mats/Lantern_01_brass_nrm"
+	"$envmap" "env_cubemap"
+	"$normalmap" "models/lamp_mats/Lantern_01_brass_nrm"
+	"$surfaceprop" "Metal"
+}
