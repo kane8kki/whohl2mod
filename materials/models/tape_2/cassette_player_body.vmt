@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tape_2/cassette_player_body_diff"
+	"$bumpmap" "models/tape_2/cassette_player_body_nrm"
+	"$envmap" "env_cubemap"
+		"$envmaptint" "[.5 .5 .5]"
+	"$normalmap" "models/tape_2/cassette_player_body_nrm"
+	"$surfaceprop" "Computer"
+}
