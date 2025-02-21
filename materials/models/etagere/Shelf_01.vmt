@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/etagere/Shelf_01_diff"
+	"$bumpmap" "models/etagere/Shelf_01_nrm"
+	"$normalmap" "models/etagere/Shelf_01_nrm"
+	"$envmapmask" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
+}
