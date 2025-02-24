@@ -167,6 +167,16 @@
 	"dsp"	"0"
 }
 
+"Concrete Medium"
+{
+	"dsp"	"18"
+}
+
+"Chamber Small"
+{
+	"dsp"	"8"
+}
+
 "GenericIndoor"
 {
 	"dsp"	"1"
