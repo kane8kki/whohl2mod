@@ -43966,3 +43966,477 @@ Level flags = 0
 Total triangle count: 1012
 Writing c:\program files (x86)\steam\steamapps\sourcemods\who\maps\test_chapter1.bsp
 1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\whohl2mod\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\gameinfo.txt
+Patching WVT material: maps/test_chapter1/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...Wrote c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.lin
+Areaportal leak ! File: c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.lin 
+Brush 25242: areaportal brush doesn't touch two areas
+
+Brush 25242: areaportal brush doesn't touch two areas
+
+Brush 25242: areaportal brush doesn't touch two areas
+
+Brush 25242: areaportal brush doesn't touch two areas
+
+Brush 25242: areaportal brush doesn't touch two areas
+done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (17610 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 169 texinfos to 55
+Reduced 20 texdatas to 13 (699 bytes to 457)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.prt
+  93 portalclusters
+ 230 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.10%)
+Total clusters visible: 3897
+Average clusters visible: 41
+Building PAS...
+Average clusters audible: 77
+visdatasize:3004  compressed from 2976
+writing c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.bsp
+403 faces
+6912 square feet [995335.81 square inches]
+22 Displacements
+4128 Square Feet [594512.00 Square Inches]
+403 patches before subdivision
+24151 patches after subdivision
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2815117, max 377
+transfer lists:  21.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0035 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 47/8192          564/98304    ( 0.6%) 
+brushsides             293/65536        2344/524288   ( 0.4%) 
+planes                 324/65536        6480/1310720  ( 0.5%) 
+vertexes               815/65536        9780/786432   ( 1.2%) 
+nodes                  237/65536        7584/2097152  ( 0.4%) 
+texinfos                55/12288        3960/884736   ( 0.4%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos               22/0            3872/0        ( 0.0%) 
+disp_verts            1782/0           35640/0        ( 0.0%) 
+disp_tris             2816/0            5632/0        ( 0.0%) 
+disp_lmsamples       83616/0           83616/0        ( 0.0%) 
+faces                  403/65536       22568/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               93/65536        5208/3670016  ( 0.1%) 
+leaves                 244/65536        7808/2097152  ( 0.4%) 
+leaffaces              415/65536         830/131072   ( 0.6%) 
+leafbrushes            156/65536         312/131072   ( 0.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2189/512000       8756/2048000  ( 0.4%) 
+edges                 1263/256000       5052/1024000  ( 0.5%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           468/65536         936/131072   ( 0.7%) 
+cubemapsamples           2/1024           32/16384    ( 0.2%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     4406404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3004/16777216 ( 0.0%) 
+entdata               [variable]       15588/393216   ( 4.0%) 
+LDR ambient table      244/65536         976/262144   ( 0.4%) 
+HDR ambient table      244/65536         976/262144   ( 0.4%) 
+LDR leaf ambient       123/65536        3444/1835008  ( 0.2%) 
+HDR leaf ambient       244/65536        6832/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2562     ( 0.0%) 
+pakfile               [variable]      319044/0        ( 0.0%) 
+physics               [variable]       17610/4194304  ( 0.4%) 
+physics terrain       [variable]        1434/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 1012
+Writing c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\whohl2mod\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\gameinfo.txt
+Patching WVT material: maps/test_chapter1/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...Wrote c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.lin
+Areaportal leak ! File: c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.lin 
+Brush 25242: areaportal brush doesn't touch two areas
+
+Brush 25242: areaportal brush doesn't touch two areas
+
+Brush 25242: areaportal brush doesn't touch two areas
+
+Brush 25242: areaportal brush doesn't touch two areas
+
+Brush 25242: areaportal brush doesn't touch two areas
+done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (17610 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 169 texinfos to 55
+Reduced 20 texdatas to 13 (699 bytes to 457)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.prt
+  93 portalclusters
+ 230 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.10%)
+Total clusters visible: 3897
+Average clusters visible: 41
+Building PAS...
+Average clusters audible: 77
+visdatasize:3004  compressed from 2976
+writing c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.bsp
+403 faces
+6912 square feet [995335.81 square inches]
+22 Displacements
+4128 Square Feet [594512.00 Square Inches]
+403 patches before subdivision
+24151 patches after subdivision
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2815117, max 377
+transfer lists:  21.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0031 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 47/8192          564/98304    ( 0.6%) 
+brushsides             293/65536        2344/524288   ( 0.4%) 
+planes                 324/65536        6480/1310720  ( 0.5%) 
+vertexes               815/65536        9780/786432   ( 1.2%) 
+nodes                  237/65536        7584/2097152  ( 0.4%) 
+texinfos                55/12288        3960/884736   ( 0.4%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos               22/0            3872/0        ( 0.0%) 
+disp_verts            1782/0           35640/0        ( 0.0%) 
+disp_tris             2816/0            5632/0        ( 0.0%) 
+disp_lmsamples       83616/0           83616/0        ( 0.0%) 
+faces                  403/65536       22568/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               93/65536        5208/3670016  ( 0.1%) 
+leaves                 244/65536        7808/2097152  ( 0.4%) 
+leaffaces              415/65536         830/131072   ( 0.6%) 
+leafbrushes            156/65536         312/131072   ( 0.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2189/512000       8756/2048000  ( 0.4%) 
+edges                 1263/256000       5052/1024000  ( 0.5%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           468/65536         936/131072   ( 0.7%) 
+cubemapsamples           2/1024           32/16384    ( 0.2%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     4406404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3004/16777216 ( 0.0%) 
+entdata               [variable]       15587/393216   ( 4.0%) 
+LDR ambient table      244/65536         976/262144   ( 0.4%) 
+HDR ambient table      244/65536         976/262144   ( 0.4%) 
+LDR leaf ambient       123/65536        3444/1835008  ( 0.2%) 
+HDR leaf ambient       244/65536        6832/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2562     ( 0.0%) 
+pakfile               [variable]      319044/0        ( 0.0%) 
+physics               [variable]       17610/4194304  ( 0.4%) 
+physics terrain       [variable]        1434/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 1012
+Writing c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\whohl2mod\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\gameinfo.txt
+Patching WVT material: maps/test_chapter1/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...Wrote c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.lin
+Areaportal leak ! File: c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.lin 
+Brush 25242: areaportal brush doesn't touch two areas
+
+Brush 25242: areaportal brush doesn't touch two areas
+
+Brush 25242: areaportal brush doesn't touch two areas
+
+Brush 25242: areaportal brush doesn't touch two areas
+
+Brush 25242: areaportal brush doesn't touch two areas
+done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (17610 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 169 texinfos to 55
+Reduced 20 texdatas to 13 (699 bytes to 457)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.prt
+  93 portalclusters
+ 230 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.10%)
+Total clusters visible: 3897
+Average clusters visible: 41
+Building PAS...
+Average clusters audible: 77
+visdatasize:3004  compressed from 2976
+writing c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.bsp
+403 faces
+6912 square feet [995335.81 square inches]
+22 Displacements
+4128 Square Feet [594512.00 Square Inches]
+403 patches before subdivision
+24151 patches after subdivision
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2815117, max 377
+transfer lists:  21.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0032 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 47/8192          564/98304    ( 0.6%) 
+brushsides             293/65536        2344/524288   ( 0.4%) 
+planes                 324/65536        6480/1310720  ( 0.5%) 
+vertexes               815/65536        9780/786432   ( 1.2%) 
+nodes                  237/65536        7584/2097152  ( 0.4%) 
+texinfos                55/12288        3960/884736   ( 0.4%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos               22/0            3872/0        ( 0.0%) 
+disp_verts            1782/0           35640/0        ( 0.0%) 
+disp_tris             2816/0            5632/0        ( 0.0%) 
+disp_lmsamples       83616/0           83616/0        ( 0.0%) 
+faces                  403/65536       22568/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               93/65536        5208/3670016  ( 0.1%) 
+leaves                 244/65536        7808/2097152  ( 0.4%) 
+leaffaces              415/65536         830/131072   ( 0.6%) 
+leafbrushes            156/65536         312/131072   ( 0.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2189/512000       8756/2048000  ( 0.4%) 
+edges                 1263/256000       5052/1024000  ( 0.5%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           468/65536         936/131072   ( 0.7%) 
+cubemapsamples           2/1024           32/16384    ( 0.2%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     4406404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3004/16777216 ( 0.0%) 
+entdata               [variable]       15587/393216   ( 4.0%) 
+LDR ambient table      244/65536         976/262144   ( 0.4%) 
+HDR ambient table      244/65536         976/262144   ( 0.4%) 
+LDR leaf ambient       123/65536        3444/1835008  ( 0.2%) 
+HDR leaf ambient       244/65536        6832/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2562     ( 0.0%) 
+pakfile               [variable]      319044/0        ( 0.0%) 
+physics               [variable]       17610/4194304  ( 0.4%) 
+physics terrain       [variable]        1434/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 1012
+Writing c:\program files (x86)\steam\steamapps\sourcemods\whohl2mod\maps\test_chapter1.bsp
+1 second elapsed
