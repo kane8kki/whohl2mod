@@ -12,13 +12,13 @@ Scheme
    // this is a list of all the colors used by the scheme
    Colors
    {
-      "base3"       "0 0 0 100"
+      "base3"       "0 0 0 127"
       "base2"       "7    54  66 0"
       "base1"       "88  110 117 0"
       "base0"       "101 123 131 0"
       "base00"        "131 148 150 255"
       "base01"        "147 161 161 255"
-      "base02"        "0 0 0 100"
+      "base02"        "0 0 0 127"
       "base03"        "253 246 227 255"
    }
 
