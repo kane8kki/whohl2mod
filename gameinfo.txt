@@ -3,6 +3,7 @@
 	game 		"who"
 	title 		"who"
 	type		singleplayer_only
+	icon		"resource/icon"
 
 	FileSystem
 	{
