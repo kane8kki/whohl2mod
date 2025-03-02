@@ -15,7 +15,7 @@ Scheme
       "base3"       "0 0 0 127"
       "base2"       "7    54  66 0"
       "base1"       "88  110 117 0"
-      "base0"       "101 123 131 0"
+      "base0"       "255 255 255 255"
       "base00"        "131 148 150 255"
       "base01"        "147 161 161 255"
       "base02"        "0 0 0 127"
@@ -153,7 +153,7 @@ Scheme
       Console.DevTextColor    "magenta"  //console on hud text
       Console.TextColor       "base0forced"    //text typed in history
       RichText.TextColor      "magenta"    //doesn't do anything???
-      RichText.BgColor        "base03forced"   //bg color of console, overrides alpha'd panel as bg
+      RichText.BgColor        "base3"   //bg color of console, overrides alpha'd panel as bg
       RichText.SelectedTextColor    "base1forced"
       RichText.SelectedBgColor      "base02forced" 
    }
