@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "40"
+	"mapversion" "43"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -95,7 +95,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "40"
+	"mapversion" "43"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4236,6 +4236,7 @@ entity
 	"id" "9672"
 	"classname" "point_teleport"
 	"angles" "0 0 0"
+	"spawnflags" "0"
 	"target" "!activator"
 	"targetname" "la_cage_aux_nazis"
 	"origin" "-712 -84 176"
@@ -4970,6 +4971,22 @@ entity
 	"skin" "0"
 	"spawnflags" "256"
 	"origin" "-292 256 88"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9892"
+	"classname" "env_soundscape"
+	"radius" "792"
+	"soundscape" "Nothing"
+	"StartDisabled" "0"
+	"origin" "-392 108 112"
 	editor
 	{
 		"color" "220 30 220"

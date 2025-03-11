@@ -193,12 +193,6 @@
 	"dsp"	"19"
 	"playlooping"
 	{
-		"volume"	"0.25"
-		"wave"		"ambient/atmosphere/indoor2.wav"
-	}
-
-	"playlooping"
-	{
 		"volume"	"0.15"
 		"wave"		"ambient/atmosphere/outdoor2.wav"
 		"pitch"		"100"

@@ -110,68 +110,68 @@ $position -1 0.58
 
 CHAPTER1_TITLE
 {
-#who_Chapter1_Title
+#whohl2mod_Chapter1_Title
 }
 
 CHAPTER2_TITLE
 {
-#HL2_Chapter2_Title
+#whohl2mod_Chapter2_Title
 }
 
 CHAPTER3_TITLE
 {
-#HL2_Chapter3_Title
+#whohl2mod_Chapter3_Title
 }
 
 CHAPTER4_TITLE
 {
-#HL2_Chapter4_Title
+#whohl2mod_Chapter4_Title
 }
 
 CHAPTER5_TITLE
 {
-#HL2_Chapter5_Title
+#whohl2mod_Chapter5_Title
 }
 
 CHAPTER6_TITLE
 {
-#HL2_Chapter6_Title
+#whohl2mod_Chapter6_Title
 }
 
 CHAPTER7_TITLE
 {
-#HL2_Chapter7_Title
+#whohl2mod_Chapter7_Title
 }
 
 CHAPTER8_TITLE
 {
-#HL2_Chapter8_Title
+#whohl2mod_Chapter8_Title
 }
 
 CHAPTER9_TITLE
 {
-#HL2_Chapter9_Title
+#whohl2mod_Chapter9_Title
 }
 
 CHAPTER9A_TITLE
 {
-#HL2_Chapter9a_Title
+#whohl2mod_Chapter9A_Title
 }
 
 
 CHAPTER10_TITLE
 {
-#HL2_Chapter10_Title
+#whohl2mod_Chapter10_Title
 }
 
 CHAPTER11_TITLE
 {
-#HL2_Chapter11_Title
+#whohl2mod_Chapter11_Title
 }
 
 CHAPTER12_TITLE
 {
-#HL2_Chapter12_Title
+#whohl2mod_Chapter12_Title
 }
 
 CHAPTER13_TITLE
