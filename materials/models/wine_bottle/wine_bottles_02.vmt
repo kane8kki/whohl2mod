@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/wine_bottle/wine_bottles_02_diff"
+	"$bumpmap" "models/wine_bottle/wine_bottles_02_nrm"
+	"$normalmap" "models/wine_bottle/wine_bottles_02_nrm"
+	"$surfaceprop" "Glass"
+}

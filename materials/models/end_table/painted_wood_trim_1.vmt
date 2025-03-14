@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/end_table/painted_wood_trim_1_diff"
+	"$bumpmap" "models/end_table/painted_wood_trim_1_nrm"
+	"$normalmap" "models/end_table/painted_wood_trim_1_nrm"
+	"$surfaceprop" "Wood_Furniture"
+}

@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/cuschion_armchair/couch_chair_cushion_1_cushions001_diff"
+	"$bumpmap" "models/cuschion_armchair/couch_chair_cushion_1_cushions001_nrm"
+	"$normalmap" "models/cuschion_armchair/couch_chair_cushion_1_cushions001_nrm"
+}
