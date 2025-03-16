@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/window_04/italy_windows_glass_01a_diff"
+	"$bumpmap" "models/window_04/italy_windows_glass_01a_nrm"
+	"$normalmap" "models/window_04/italy_windows_glass_01a_nrm"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "Glass"
+}

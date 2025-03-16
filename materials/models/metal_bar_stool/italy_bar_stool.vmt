@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/metal_bar_stool/italy_bar_stool_diff"
+	"$bumpmap" "models/metal_bar_stool/italy_bar_stool_nrm"
+	"$envmap" "env_cubemap"
+	"$normalmap" "models/metal_bar_stool/italy_bar_stool_nrm"
+	"$surfaceprop" "Wood_Furniture"
+}
