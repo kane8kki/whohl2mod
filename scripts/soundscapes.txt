@@ -59,17 +59,40 @@
 //	SNDLVL_150dB	= 150,	// 0.2
 
 // General soundscapes
-"JazzyHostel"
+
+"Outside_testmap"
 {
-    "dsp" "18"  // Simule une pièce moyenne en béton (réduit un peu les aigus)
+    "dsp" "20"  // Simule une pièce moyenne en béton (réduit un peu les aigus)
+    "dsp_volume" "1.0"
     "playlooping"
     {
-        "volume" "0.4"
-        "wave" "jazzyhostel.wav"
-        "pitch" "90"  // Rend le son légèrement plus grave (aigus atténués)
-        "position" "1" // Le son semble venir d’une autre pièce
+        "volume"    "0.5"
+        "pitch"        "100"
+        "attenuation"    "0"
+        "wave"        "ambient/nature/outdoor_soundscape.wav"
+    }
+    
+    "playrandom"
+    {
+        // Intervalle aléatoire entre 5 et 15 secondes
+        "time"        "5,15"
+        
+        // Volume des oiseaux entre 0.4 et 0.7
+        "volume"    "0.1,0.2"
+        
+        // Pitch entre 90 et 110 pour de légères variations
+        "pitch"        "90,110"
+        
+        // Sons d'oiseaux joués aléatoirement
+        "rndwave"
+        {
+            "wave"    "ambient/birds/bird_1_outside.wav"
+            "wave"    "ambient/birds/bird_2_outside.wav"
+            "wave"    "ambient/birds/bird_3_outside.wav"
+        }
     }
 }
+
 
 // This soundscape enables automatic dsp
 
