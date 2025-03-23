@@ -78,7 +78,7 @@
         "time"        "5,15"
         
         // Volume des oiseaux entre 0.4 et 0.7
-        "volume"    "0.1,0.2"
+        "volume"    "0.05,0.1"
         
         // Pitch entre 90 et 110 pour de légères variations
         "pitch"        "90,110"

@@ -1301,6 +1301,31 @@
 	}
 }
 
+"Carpet.StepLeft"
+{
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.5"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+        "wave" "sound/player/footsteps/dirt2.wav"
+        "wave" "sound/player/footsteps/dirt4.wav"
+	}
+}
+
+"Carpet.StepRight"
+{
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"0.5"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+        "wave" "sound/player/footsteps/dirt1.wav"
+        "wave" "sound/player/footsteps/dirt3.wav"
+
+	}
+}
+
 "Carpet.Impact"
 {
 	"soundlevel"		"SNDLVL_75dB"
@@ -2468,11 +2493,11 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"pitch"			"PITCH_NORM"
-	"volume"			"0.5"
+	"volume"			"1.0"
 	"rndwave"
 	{
-		"wave"		"physics/plastic/plastic_barrel_impact_soft1.wav"
-		"wave"		"physics/plastic/plastic_barrel_impact_soft2.wav"
+		"wave"		"sound/physics/plastic/plastic_impact_soft1.wav"
+		"wave"		"sound/physics/plastic/plastic_impact_soft2.wav"
 	}
 }
 
@@ -2480,11 +2505,11 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"pitch"			"PITCH_NORM"
-	"volume"			"0.5"
+	"volume"			"1.0"
 	"rndwave"
 	{
-		"wave"		"physics/plastic/plastic_barrel_impact_soft3.wav"
-		"wave"		"physics/plastic/plastic_barrel_impact_soft4.wav"
+		"wave"		"sound/physics/plastic/plastic_impact_soft3.wav"
+		"wave"		"sound/physics/plastic/plastic_impact_soft4.wav"
 	}
 }
 
@@ -2600,11 +2625,11 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"pitch"			"PITCH_NORM"
-	"volume"			"0.3"
+	"volume"			"1.0"
 	"rndwave"
 	{
-		"wave"		"physics/plastic/plastic_box_impact_soft1.wav"
-		"wave"		"physics/plastic/plastic_box_impact_soft2.wav"
+		"wave"		"sound/physics/plastic/plastic_impact_soft1.wav"
+		"wave"		"sound/physics/plastic/plastic_impact_soft2.wav"
 	}
 }
 
@@ -2612,11 +2637,11 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"pitch"			"PITCH_NORM"
-	"volume"			"0.3"
+	"volume"			"1.0"
 	"rndwave"
 	{
-		"wave"		"physics/plastic/plastic_box_impact_soft3.wav"
-		"wave"		"physics/plastic/plastic_box_impact_soft4.wav"
+		"wave"		"sound/physics/plastic/plastic_impact_soft3.wav"
+		"wave"		"sound/physics/plastic/plastic_impact_soft4.wav"
 	}
 }
 
@@ -3390,6 +3415,30 @@
 }
 
 // wood furniture - chairs, small tables
+
+"Wood_Furniture.StepLeft"
+{
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"player/footsteps/woodpanel1.wav
+		"wave"		"player/footsteps/woodpanel3.wav"
+	}
+}
+
+"Wood_Furniture.StepRight"
+{
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"player/footsteps/woodpanel2.wav"
+		"wave"		"player/footsteps/woodpanel4.wav"
+	}
+}
 
 
 "Wood_Furniture.ImpactSoft"

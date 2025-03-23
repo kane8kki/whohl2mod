@@ -3,5 +3,5 @@
 	"$basetexture" "oldcarpet/oldcarpet_diff"
 	"$bumpmap" "oldcarpet/oldcarpet_nrm"
 	"$normalmap" "oldcarpet/oldcarpet_nrm"
-	"$surfaceprop" "Snow"
+	"$surfaceprop" "Carpet"
 }
