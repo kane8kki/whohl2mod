@@ -2493,7 +2493,7 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"pitch"			"PITCH_NORM"
-	"volume"			"1.0"
+	"volume"			"2.0"
 	"rndwave"
 	{
 		"wave"		"sound/physics/plastic/plastic_impact_soft1.wav"
@@ -2505,7 +2505,7 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"pitch"			"PITCH_NORM"
-	"volume"			"1.0"
+	"volume"			"2.0"
 	"rndwave"
 	{
 		"wave"		"sound/physics/plastic/plastic_impact_soft3.wav"
@@ -2625,7 +2625,7 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"pitch"			"PITCH_NORM"
-	"volume"			"1.0"
+	"volume"			"2.0"
 	"rndwave"
 	{
 		"wave"		"sound/physics/plastic/plastic_impact_soft1.wav"
@@ -2637,7 +2637,7 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"pitch"			"PITCH_NORM"
-	"volume"			"1.0"
+	"volume"			"2.0"
 	"rndwave"
 	{
 		"wave"		"sound/physics/plastic/plastic_impact_soft3.wav"
