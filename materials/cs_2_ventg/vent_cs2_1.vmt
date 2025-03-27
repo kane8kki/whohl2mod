@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "cs_2_ventg/vent_cs2_1_colr"
+	"$bumpmap" "cs_2_ventg/vent_cs2_1_norm"
+	"$envmap" "env_cubemap"
+	"$normalmap" "cs_2_ventg/vent_cs2_1_norm"
+	"$surfaceprop" "Metalvent"
+}
