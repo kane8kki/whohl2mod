@@ -1,11 +1,10 @@
 "UnlitGeneric"
 {
-	"$znearer" 1
 	"$baseTexture" "filmgrain/noiseadd"
 	"$translucent" "1"
-	"$additive" "1"
-	"$mod2x" "1"
-	"$alpha" "0.5"
+	"$alpha" "1"
+	"$vertexalpha" "1"
+	"$no_fullbright" "1"
 	"Proxies"
 	{
 		"AnimatedTexture"
