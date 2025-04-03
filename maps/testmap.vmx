@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "85"
+	"mapversion" "92"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -95,7 +95,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "85"
+	"mapversion" "92"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -6121,7 +6121,8 @@ entity
 	connections
 	{
 		"OnMapSpawn" "fade_spawn,Fade,,0,-1"
-		"OnMapSpawn" "filmgrain/wtfh,StartOverlays,,0,-1"
+		"OnMapSpawn" "filmgrain/wtfh,StartOverlays,,1,-1"
+		"OnMapSpawn" "filmgrain/wtfh2,StartOverlays,,1,-1"
 	}
 	"origin" "-405.57 190.337 215.5"
 	editor
@@ -6158,6 +6159,40 @@ entity
 	"OverlayTime9" "1.0"
 	"targetname" "filmgrain/wtfh"
 	"origin" "-372 216 224"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "10703"
+	"classname" "env_screenoverlay"
+	"OverlayName1" "filmgrain/noiseadd"
+	"OverlayName10" "filmgrain/noiseadd"
+	"OverlayName2" "filmgrain/noiseadd"
+	"OverlayName3" "filmgrain/noiseadd"
+	"OverlayName4" "filmgrain/noiseadd"
+	"OverlayName5" "filmgrain/noiseadd"
+	"OverlayName6" "filmgrain/noiseadd"
+	"OverlayName7" "filmgrain/noiseadd"
+	"OverlayName8" "filmgrain/noiseadd"
+	"OverlayName9" "filmgrain/noiseadd"
+	"OverlayTime1" "1.0"
+	"OverlayTime10" "1.0"
+	"OverlayTime2" "1.0"
+	"OverlayTime3" "1.0"
+	"OverlayTime4" "1.0"
+	"OverlayTime5" "1.0"
+	"OverlayTime6" "1.0"
+	"OverlayTime7" "1.0"
+	"OverlayTime8" "1.0"
+	"OverlayTime9" "1.0"
+	"targetname" "filmgrain/wtfh2"
+	"origin" "-352 216 224"
 	editor
 	{
 		"color" "220 30 220"
