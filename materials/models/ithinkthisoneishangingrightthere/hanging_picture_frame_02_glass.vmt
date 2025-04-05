@@ -1,4 +1,5 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "models/ithinkthisoneishangingrightthere/hanging_picture_frame_02_glass"
+	"$envmap" "env_cubemap"
 }

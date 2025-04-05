@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "15"
+	"mapversion" "17"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "15"
+	"mapversion" "17"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.4.6.1 from bckground"
 	"detailmaterial" "detail/detailsprites"
@@ -3252,8 +3252,9 @@ entity
 {
 	"id" "225"
 	"classname" "env_cubemap"
-	"cubemapsize" "9"
-	"origin" "267 -169 128"
+	"cubemapsize" "0"
+	"sides" "9"
+	"origin" "229.124 -171.692 139.943"
 	editor
 	{
 		"color" "0 0 255"
@@ -3748,13 +3749,71 @@ entity
 		"logicalpos" "[0 1500]"
 	}
 }
+entity
+{
+	"id" "3264"
+	"classname" "env_cubemap"
+	"cubemapsize" "0"
+	"origin" "297.799 -133.787 145.882"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "3270"
+	"classname" "env_cubemap"
+	"cubemapsize" "0"
+	"origin" "297.799 -180.681 183.89"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "3275"
+	"classname" "env_cubemap"
+	"cubemapsize" "0"
+	"sides" ""
+	"origin" "277.247 -270.323 122.674"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "3282"
+	"classname" "env_cubemap"
+	"cubemapsize" "0"
+	"sides" ""
+	"origin" "403.575 -175.339 99.2678"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[168.22 -194.055 156.373]"
-		"look" "[422.839 -179.819 79.3802]"
+		"position" "[32.0864 -259.324 164.343]"
+		"look" "[280.599 -189.937 98.0968]"
 	}
 }
 cordons

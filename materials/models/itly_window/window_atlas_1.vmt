@@ -2,7 +2,8 @@
 {
 	"$basetexture" "models/itly_window/window_atlas_1_diff"
 	"$bumpmap" "models/itly_window/window_atlas_1_nrm"
-	"$envmap" "env_cubemap"
 	"$normalmap" "models/itly_window/window_atlas_1_nrm"
 	"$surfaceprop" "Glass"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
 }

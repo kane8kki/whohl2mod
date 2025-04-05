@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "duct_vent/duct_vent_diff"
-	"$bumpmap" "duct_vent/duct_vent_nrm"
-	"$envmap" "env_cubemap"
-	"$normalmap" "duct_vent/duct_vent_nrm"
-	"$translucent" 1
-}
