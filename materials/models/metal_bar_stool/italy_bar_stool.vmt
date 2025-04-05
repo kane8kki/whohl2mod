@@ -3,6 +3,7 @@
 	"$basetexture" "models/metal_bar_stool/italy_bar_stool_diff"
 	"$bumpmap" "models/metal_bar_stool/italy_bar_stool_nrm"
 	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
 	"$normalmap" "models/metal_bar_stool/italy_bar_stool_nrm"
 	"$surfaceprop" "Wood_Furniture"
 }

@@ -3,6 +3,7 @@
 	"$basetexture" "models/bar_dispenser/bar_dispenser_diff"
 	"$bumpmap" "models/bar_dispenser/bar_dispenser_nrm"
 	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
 	"$normalmap" "models/bar_dispenser/bar_dispenser_nrm"
 	"$surfaceprop" "Metal"
 }

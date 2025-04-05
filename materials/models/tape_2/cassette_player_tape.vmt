@@ -3,6 +3,7 @@
 	"$basetexture" "models/tape_2/cassette_player_tape_diff"
 	"$bumpmap" "models/tape_2/cassette_player_tape_nrm"
 	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
 	"$normalmap" "models/tape_2/cassette_player_tape_nrm"
 	"$surfaceprop" "Computer"
 }

@@ -3,7 +3,7 @@
 	"$basetexture" "models/cabinet/painted_wooden_cabinet"
 	"$bumpmap" "models/cabinet/painted_wooden_cabinet_nrm"
 	"$envmap" "env_cubemap"
-	"$envmaptint" "[.2 .2 .2]"
+	"$envmaptint" "[.03 .03 .03]"
 	"$normalmap" "models/cabinet/painted_wooden_cabinet_nrm"
 	"$surfaceprop" "Wood_Furniture"
 }

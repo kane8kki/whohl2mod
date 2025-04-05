@@ -4,5 +4,6 @@
 	"$bumpmap" "models/window_04/italy_windows_glass_01a_nrm"
 	"$normalmap" "models/window_04/italy_windows_glass_01a_nrm"
 	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .5 .5]"
 	"$surfaceprop" "Glass"
 }

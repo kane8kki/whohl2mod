@@ -5,5 +5,5 @@
 	"$normalmap" "models/itly_window/window_atlas_1_nrm"
 	"$surfaceprop" "Glass"
 	"$envmap" "env_cubemap"
-	"$envmaptint" "[.2 .2 .2]"
+	"$envmaptint" "[.5 .5 .5]"
 }

@@ -4,4 +4,6 @@
 	"$bumpmap" "models/wine_bottle/wine_bottles_02_nrm"
 	"$normalmap" "models/wine_bottle/wine_bottles_02_nrm"
 	"$surfaceprop" "Glass"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.45 .45 .45]"
 }
