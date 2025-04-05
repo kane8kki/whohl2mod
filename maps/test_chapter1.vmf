@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "402"
+	"mapversion" "405"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -107,7 +107,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "402"
+	"mapversion" "405"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -45790,11 +45790,9 @@ entity
 		"OnMapSpawn" "jvouzencule2,Disable,,46,-1"
 		"OnMapSpawn" "gold_light,TurnOff,,0,-1"
 		"OnMapSpawn" "gold_light2,TurnOff,,0,-1"
-		"OnMapSpawn" "noise,StartOverlays,,0,-1"
-		"OnMapSpawn" "noiseadd,StartOverlays,,0,-1"
 		"OnMapSpawn" "frame_purplelight,Disable,,0,-1"
-		"OnMapSpawn" "noise,StartOverlays,,0,-1"
-		"OnMapSpawn" "noiseadd,StartOverlays,,0.1,-1"
+		"OnMapSpawn" "noise,StartOverlays,,47,-1"
+		"OnMapSpawn" "noiseadd,StartOverlays,,47.1,-1"
 	}
 	"origin" "32 88 65"
 	editor
@@ -52195,7 +52193,7 @@ entity
 	"OverlayName7" "filmgrain/noise"
 	"OverlayName8" "filmgrain/noise"
 	"OverlayName9" "filmgrain/noise"
-	"OverlayTime1" "1.0"
+	"OverlayTime1" "-1"
 	"OverlayTime10" "1.0"
 	"OverlayTime2" "1.0"
 	"OverlayTime3" "1.0"
@@ -52229,7 +52227,7 @@ entity
 	"OverlayName7" "filmgrain/noiseadd"
 	"OverlayName8" "filmgrain/noiseadd"
 	"OverlayName9" "filmgrain/noiseadd"
-	"OverlayTime1" "1.0"
+	"OverlayTime1" "-1"
 	"OverlayTime10" "1.0"
 	"OverlayTime2" "1.0"
 	"OverlayTime3" "1.0"
