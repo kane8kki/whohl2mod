@@ -200,6 +200,16 @@
 	"dsp"	"8"
 }
 
+"Chamber Medium"
+{
+	"dsp"	"9"
+}
+
+"Tunnel Small"
+{
+	"dsp"	"5"
+}
+
 "GenericIndoor"
 {
 	"dsp"	"1"
