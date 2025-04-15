@@ -4,4 +4,6 @@
 	"$normalmap" "concretewall2/conretewall_nrm"
 	"$surfaceprop" "Concrete"
 	"$surfaceprop2" "Concrete"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.008 .008 .008]"
 }
