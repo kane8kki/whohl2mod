@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/elevtr/elevPotLight_mat_diff"
+	"$selfillum" 1
+    "$selfillummask" "models/elevtr/elevPotLight_mat_selfillum"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.3 .3 .3]"
+	"$envmapmask" "models/elevtr/elevPotLight_mat_envmap"
+	"$normalmap" "models/elevtr/elevPotLight_mat_nrm"
+}

@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/elevtr/elevMain_mat_diff"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.3 .3 .3]"
+	"$envmapmask" "models/elevtr/elevMain_mat_envmap"
+	"$normalmap" "models/elevtr/elevMain_mat_nrm"
+}
