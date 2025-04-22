@@ -2,8 +2,14 @@
 {
 	"$basetexture" "models/cabinet/painted_wooden_cabinet"
 	"$bumpmap" "models/cabinet/painted_wooden_cabinet_nrm"
+	"$envmapmask" "models/cabinet/painted_wooden_cabinet_envmap"
 	"$envmap" "env_cubemap"
-	"$envmaptint" "[.03 .03 .03]"
-	"$normalmap" "models/cabinet/painted_wooden_cabinet_nrm"
+
+    "$phong" "1"
+    "$phongboost" "1"
+    "$phongfresnelranges" "[0.3 0.5 1]"
+
+    // Optional: si tu veux activer la lumière dynamique + ombrage
+    "$model" "1"
 	"$surfaceprop" "Wood_Furniture"
 }

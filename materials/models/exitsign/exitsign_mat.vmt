@@ -2,6 +2,13 @@
 {
 	"$basetexture" "models/exitsign/exitsign_mat"
 	"$surfaceprop" "Computer"
-	"$translucent" 1
+	"$envmapmask" "models/exitsign/exitsign_mat_envmap"
 	"$envmap" "env_cubemap"
+
+    "$phong" "1"
+    "$phongboost" "1"
+    "$phongfresnelranges" "[1 0.5 1]"
+
+    // Optional: si tu veux activer la lumière dynamique + ombrage
+    "$model" "1"
 }

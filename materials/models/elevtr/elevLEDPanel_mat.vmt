@@ -1,10 +1,14 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "models/elevtr/elevLEDPanel_mat_diff"
-	"$selfillum" 1
-    "$selfillummask" "models/elevtr/elevLEDPanel_mat_selfillum"
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[.3 .3 .3]"
 	"$envmapmask" "models/elevtr/elevLEDPanel_mat_envmap"
-	"$normalmap" "models/elevtr/elevLEDPanel_mat_nrm"
+	"$bumpmap" "models/elevtr/elevLEDPanel_mat_nrm"
+	"$envmap" "env_cubemap"
+
+    "$phong" "1"
+    "$phongboost" "1"
+    "$phongfresnelranges" "[1 0.5 1]"
+
+    // Optional: si tu veux activer la lumière dynamique + ombrage
+    "$model" "1"
 }
