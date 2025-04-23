@@ -2,6 +2,7 @@
 {
 	"$basetexture" "models/betta_door/Door_diff"
 	"$bumpmap" "models/betta_door/Door_nrm"
-	"$normalmap" "models/betta_door/Door_nrm"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.15 .15 .15]"
 	"$surfaceprop" "Wood_Solid"
 }
