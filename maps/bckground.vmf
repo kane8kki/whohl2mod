@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "24"
+	"mapversion" "27"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "24"
+	"mapversion" "27"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.4.6.1 from bckground"
 	"detailmaterial" "detail/detailsprites"
@@ -2999,7 +2999,7 @@ entity
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
-	"model" "models/goodmatlamp/lamp.mdl"
+	"model" "models/furnit_lamp/antique_lamp.mdl"
 	"modelscale" "1.0"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
@@ -3812,8 +3812,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[95.8722 -233.416 99.7923]"
-		"look" "[350.846 -304.606 70.0985]"
+		"position" "[216.837 -199.376 144.95]"
+		"look" "[465.297 -137.426 71.5249]"
 	}
 }
 cordons
