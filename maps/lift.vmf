@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "29"
+	"mapversion" "33"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -95,7 +95,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "29"
+	"mapversion" "33"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2421,7 +2421,7 @@ entity
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "0"
 	"style" "0"
-	"origin" "-19.3187 -20.914 96"
+	"origin" "-19.3187 -20.914 36"
 	editor
 	{
 		"color" "220 30 220"
@@ -2469,7 +2469,7 @@ entity
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "0"
 	"style" "0"
-	"origin" "-18.2396 21.2025 96"
+	"origin" "-18.2396 21.2025 36"
 	editor
 	{
 		"color" "220 30 220"
@@ -2493,7 +2493,7 @@ entity
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "0"
 	"style" "0"
-	"origin" "22.1733 21.2025 96"
+	"origin" "22.1733 21.2025 36"
 	editor
 	{
 		"color" "220 30 220"
@@ -2819,158 +2819,6 @@ entity
 }
 entity
 {
-	"id" "369"
-	"classname" "func_button"
-	"disablereceiveshadows" "0"
-	"health" "0"
-	"lip" "0"
-	"locked_sentence" "0"
-	"locked_sound" "0"
-	"movedir" "0 0 0"
-	"origin" "-24.5 -35.5 -8.5"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"sounds" "9"
-	"spawnflags" "1025"
-	"speed" "5"
-	"unlocked_sentence" "0"
-	"unlocked_sound" "0"
-	"wait" "3"
-	connections
-	{
-		"OnPressed" "etat_portes,Toggle,,0,-1"
-		"OnPressed" "porte_ouverte,EnablePath,,0,-1"
-	}
-	solid
-	{
-		"id" "367"
-		side
-		{
-			"id" "252"
-			"plane" "(-29 -35 3) (-20 -35 3) (-20 -36 3)"
-			vertices_plus
-			{
-				"v" "-29 -35 3"
-				"v" "-20 -35 3"
-				"v" "-20 -36 3"
-				"v" "-29 -36 3"
-			}
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "251"
-			"plane" "(-29 -36 -20) (-20 -36 -20) (-20 -35 -20)"
-			vertices_plus
-			{
-				"v" "-29 -36 -20"
-				"v" "-20 -36 -20"
-				"v" "-20 -35 -20"
-				"v" "-29 -35 -20"
-			}
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "250"
-			"plane" "(-29 -35 3) (-29 -36 3) (-29 -36 -20)"
-			vertices_plus
-			{
-				"v" "-29 -35 3"
-				"v" "-29 -36 3"
-				"v" "-29 -36 -20"
-				"v" "-29 -35 -20"
-			}
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "249"
-			"plane" "(-20 -35 -20) (-20 -36 -20) (-20 -36 3)"
-			vertices_plus
-			{
-				"v" "-20 -35 -20"
-				"v" "-20 -36 -20"
-				"v" "-20 -36 3"
-				"v" "-20 -35 3"
-			}
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "248"
-			"plane" "(-20 -35 3) (-29 -35 3) (-29 -35 -20)"
-			vertices_plus
-			{
-				"v" "-20 -35 3"
-				"v" "-29 -35 3"
-				"v" "-29 -35 -20"
-				"v" "-20 -35 -20"
-			}
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "247"
-			"plane" "(-20 -36 -20) (-29 -36 -20) (-29 -36 3)"
-			vertices_plus
-			{
-				"v" "-20 -36 -20"
-				"v" "-29 -36 -20"
-				"v" "-29 -36 3"
-				"v" "-20 -36 3"
-			}
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "591"
 	"classname" "logic_branch"
 	"InitialValue" "0"
@@ -3006,6 +2854,130 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "640"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "255 255 255 10"
+	"_lightHDR" "-1 -1 -1 -1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"style" "0"
+	"origin" "19 -21 36"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "649"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "5.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow02.vmt"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.3"
+	"origin" "19.5267 -17.9166 43"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "673"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "5.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow02.vmt"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.3"
+	"origin" "-15 -17 43"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "678"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "5.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow02.vmt"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.3"
+	"origin" "-15 17 43"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "681"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "5.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow02.vmt"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.3"
+	"origin" "19.3453 17 42"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
