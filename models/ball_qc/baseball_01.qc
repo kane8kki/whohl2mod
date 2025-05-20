@@ -1,6 +1,6 @@
 $modelname		"Props\baseball_01.mdl"
 $body modelbody	"baseball_01.smd"
-$surfaceprop	rubber
+$surfaceprop	Snow
 $cdmaterials	"models\props"
 
 $keyvalues
