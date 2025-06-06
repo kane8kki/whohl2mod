@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models/boombox/boombox_diff_4k"
+    "$bumpmap" "models/boombox/boombox_nrm"
+    "$envmapmask" "models/boombox/boombox_diff_4k"
+    "$envmap" "env_cubemap"
+
+    "$phong" "1"
+    "$phongboost" "1"
+    "$phongfresnelranges" "[1 0.5 1]"
+
+    "$model" "1"
+}

@@ -185,7 +185,7 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"pitch"			"PITCH_NORM"
-	"volume"		"1.0"
+	"volume"		"0.2"
 	"rndwave"
 	{
 		"wave"		"player/footsteps/dirt1.wav"
@@ -197,7 +197,7 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"pitch"			"PITCH_NORM"
-	"volume"		"1.0"
+	"volume"		"0.2"
 	"rndwave"
 	{
 		"wave"		"player/footsteps/dirt2.wav"
@@ -1304,7 +1304,7 @@
 "Carpet.StepLeft"
 {
 	"soundlevel"		"SNDLVL_75dB"
-	"volume"		"0.5"
+	"volume"		"0.2"
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
@@ -1316,7 +1316,7 @@
 "Carpet.StepRight"
 {
 	"soundlevel"		"SNDLVL_75dB"
-	"volume"		"0.5"
+	"volume"		"0.2"
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{

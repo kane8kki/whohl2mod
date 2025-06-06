@@ -1,0 +1,124 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "why do we created this map ?"
+		"origin" "-76.7699966431 150.2599945068 106.25"
+		"angles" "0 175.8600006104 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentaries\testmap_ovrvw.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" ""
+		"synopsis" "hi, i am karl and i will explain why we created this mapwe created this map to test out things used in the game:like phong shading, footsteps sounds, physics based props, fade in and fade out etc... "
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "why is a monkey prop"
+		"origin" "101.4800033569 36.2099990845 102.4599990845"
+		"angles" "0 39.1100006104 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentaries\monkee_comment.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" ""
+		"synopsis" "This monkey prop was used for the purpose of a youtube tutorial to make physics props with sourceops, and also how to make vmt materials, and if you are someone familiar with blender, you may have recognized that this model is suzanne,  the base blender model."
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "why these weird materials are there ?"
+		"origin" "-361.6700134277 30.7900009155 103.3199996948"
+		"angles" "0 170.8399963379 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentaries\placeholder_textures_comment.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" ""
+		"synopsis" "these two materials are here to test out the footsteps sounds,if you walk on these surfaces you will see that the material that has "
+		"wood" " write on it sounds like wood when you walk on it, and same for the grass"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "why this phone prop ?"
+		"origin" "-96.0699996948 -172.2700042725 113.5800018311"
+		"angles" "0 -90.6200027466 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentaries\phone_prop.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" ""
+		"synopsis" "this phone model is here because it is the first prop that i made to test out phong shading, and i saw that this type of shading was really good especially for the models using pbr materials, but this kind of shading is only available for models and not for hammer brushes, i also wanted to make this model a button to test out cutscenes but it didn't worked"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "why this glass cage is here ?"
+		"origin" "-594.9699707031 -123.0800018311 115.2600021362"
+		"angles" "0 -128.8600006104 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentaries\cage_comment.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" ""
+		"synopsis" "this cage and button is here to test out fade in and out, so when you press the button, the screen will fade to black, and you will be teleported inside the cage and you will not escape until you restart the level, fun fact : when you walk on the button, it will make the footsteps sound like if you walk on flesh. "
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "why these two buttons are here ?"
+		"origin" "-865.2199707031 240.4600067139 121.4700012207"
+		"angles" "0 178.6999969482 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentaries\filmgrain_comment.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" ""
+		"synopsis" "these two buttons are here to test the grain effect overlay, because there are grain in the chapter one map, i had also a lot of troubles because when the map doesn't have color correction : the filmgrain is too strong and it bugs out when the player sees shadows"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "why are the cube vent and this guy here "
+		"origin" "-704.2600097656 400.2699890137 118.9000015259"
+		"angles" "0 -176.9799957275 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentaries\vent_comment.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" ""
+		"synopsis" "this vent material block is here because i tested a lot of vent materials and wanted to choose the perfect material for it, the info_player_start model next to it, is to find out what is the size of vent that allows the player to crouch on it"
+	}
+	"entity"
+	{
+		"classname" "point_commentary_node"
+		"targetname" "why these models are here ?"
+		"origin" "-380.7099914551 353.3900146484 109.8799972534"
+		"angles" "0 -99.2600021362 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" "#commentaries\models_comment.wav"
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" ""
+		"synopsis" "all these models are here to test out cubemaps reflextions and (again) phong shading, because at first the vbsp of the source sdk doesn't work properly and doesn't allows cubemaps to work, so i had a very hard time to make this to work, and when  the cubemaps worked, i saw that these reflections were not parallax corrected, so i turned to phong shading, because phong shading is parallax corrected, and i think that these are a lot nicer than the cubemaps reflexions."
+	}
+}

@@ -1,0 +1,67 @@
+qdir:    "c:\program files (x86)\steam\steamapps\sourcemods\who\modelsrc\example\simulation\"
+gamedir: "C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\sourcetest\"
+g_path:  "C:\Program Files (x86)\Steam\steamapps\sourcemods\who\ModelSrc\example\simulation\simulation.qc"
+Building binary model files...
+Working on "simulation.qc"
+SMD MODEL Reference.smd
+SMD MODEL anims/fall.smd
+---------------------
+writing C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\sourcetest\models/example/simulation.mdl:
+bones         9996 bytes (42)
+animations   48600 bytes (1 anims) (150 frames) [0:06]
+sequences      384 bytes (1 seq) 
+ik/pose        164 bytes
+eyeballs         0 bytes (0 eyeballs)
+flexes           0 bytes (0 flexes)
+textures        72 bytes
+keyvalues        0 bytes
+bone transforms     5776 bytes
+bone flex driver       0 bytes
+collision        0 bytes
+total        66772
+---------------------
+writing C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\sourcetest\models/example/simulation.vvd:
+vertices     74928 bytes (1561 vertices)
+tangents     24976 bytes (1561 vertices)
+total        99968 bytes
+---------------------
+Generating optimized mesh "C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\sourcetest\models/example/simulation.sw.vtx":
+body parts:         8 bytes
+models:            20 bytes
+model LODs:        12 bytes
+meshes:             9 bytes
+strip groups:      25 bytes
+strips:            27 bytes
+verts:          14049 bytes
+indices:         4878 bytes
+bone changes:       8 bytes
+everything:     19060 bytes
+---------------------
+Generating optimized mesh "C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\sourcetest\models/example/simulation.dx80.vtx":
+body parts:         8 bytes
+models:            20 bytes
+model LODs:        12 bytes
+meshes:             9 bytes
+strip groups:      25 bytes
+strips:            81 bytes
+verts:          14049 bytes
+indices:         4878 bytes
+bone changes:     344 bytes
+everything:     19450 bytes
+---------------------
+Generating optimized mesh "C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\sourcetest\models/example/simulation.dx90.vtx":
+body parts:         8 bytes
+models:            20 bytes
+model LODs:        12 bytes
+meshes:             9 bytes
+strip groups:      25 bytes
+strips:            27 bytes
+verts:          14049 bytes
+indices:         4878 bytes
+bone changes:     344 bytes
+everything:     19396 bytes
+
+Completed "simulation.qc"
+
+
+

@@ -1,9 +1,9 @@
 "JazzyHostel"
 {
-    "dsp" "14"
+    "dsp" "6"
     "playlooping"
     {
-        "volume" "0.3"
+        "volume" "0.5"
         "wave" "jazzyhostel.wav"
 	"pitch"		"100"
 	"attenuation"	"2"

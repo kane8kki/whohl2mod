@@ -371,7 +371,7 @@
 
 "Wood_Furniture"
 {
-	"base"	"Wood_Box"
+	"base"	"Wood"
 
 	"impactsoft"	"Wood_Furniture.ImpactSoft"
 
